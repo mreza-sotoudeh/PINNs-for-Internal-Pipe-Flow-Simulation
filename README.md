@@ -172,7 +172,7 @@ The pressure gradient is estimated numerically, and a friction-factor distributi
 * **pyDOE** — Latin Hypercube Sampling for collocation-point generation
 ## PINN Source Code
 
-[View PINN Implementation](code/pipe-flow-pinn)
+[View PINN Implementation](code/pipe_flow_pinn)
 
 ## Key Takeaways
 
