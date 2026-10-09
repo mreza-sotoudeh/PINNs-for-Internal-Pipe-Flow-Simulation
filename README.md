@@ -130,37 +130,38 @@ The project generates several visualizations to investigate the predicted flow f
 
 The radial velocity contour illustrates the predicted radial motion of the fluid throughout the pipe domain.
 
-**Suggested figure:** `images/radial_velocity.png`
+![Radial Velocity](contours-and-plots/Vr.png)
 
 ### 2. Azimuthal Velocity Component
 
 The azimuthal velocity contour represents the predicted circumferential component of the flow.
 
-**Suggested figure:** `images/azimuthal_velocity.png`
+![Azimuthal Velocity](contours-and-plots/V_theta.png)
 
 ### 3. Axial Velocity Component
 
 The axial velocity contour visualizes the dominant flow component along the pipe axis and its variation with radial and axial position.
 
-**Suggested figure:** `images/axial_velocity.png`
+![Axial Velocity](contours-and-plots/Vz.png)
 
 ### 4. Pressure Distribution
 
 The pressure contour provides a spatial representation of the predicted pressure field.
 
-**Suggested figure:** `images/pressure_contour.png`
+![Pressure Contour](contours-and-plots/PressureCnt.png)
+
 
 ### 5. Pressure Along the Pipe Centerline
 
 The pressure distribution is evaluated along the pipe centerline and plotted as a function of the axial coordinate.
 
-**Suggested figure:** `images/centerline_pressure.png`
+![Pressure Along Pipe Centerline](contours-and-plots/PressureAlongPipeCenterline.png)
 
 ### 6. Friction Factor
 
 The pressure gradient is estimated numerically, and a friction-factor distribution is calculated using the pipe diameter, fluid density, and predicted velocity scale.
 
-**Suggested figure:** `images/friction_factor.png`
+![Friction Factor](contours-and-plots/FrictionFactor.png)
 
 ## Technologies Used
 
