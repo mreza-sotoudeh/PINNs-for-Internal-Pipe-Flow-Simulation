@@ -170,58 +170,9 @@ The pressure gradient is estimated numerically, and a friction-factor distributi
 * **NumPy** — Numerical operations and data processing
 * **Matplotlib** — Scientific visualization
 * **pyDOE** — Latin Hypercube Sampling for collocation-point generation
+## PINN Source Code
 
-## Repository Structure
-
-```text
-pinn-internal-pipe-flow/
-│
-├── README.md
-├── requirements.txt
-├── pinn_pipe_flow.py
-│
-└── images/
-    ├── radial_velocity.png
-    ├── azimuthal_velocity.png
-    ├── axial_velocity.png
-    ├── pressure_contour.png
-    ├── centerline_pressure.png
-    └── friction_factor.png
-```
-
-*The structure above is a suggested organization for the repository. The script and image filenames should be adjusted to match the actual uploaded files.*
-
-## Installation and Usage
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/mreza-sotoudeh/pinn-internal-pipe-flow.git
-cd pinn-internal-pipe-flow
-```
-
-### 2. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-The main dependencies are:
-
-```text
-torch
-numpy
-matplotlib
-pyDOE
-```
-
-### 3. Run the Simulation
-
-```bash
-python pinn_pipe_flow.py
-```
-
-The script trains the neural network and generates the velocity contours, pressure contour, centerline pressure plot, and friction-factor plot.
+[View PINN Implementation](code/pipe-flow-pinn)
 
 ## Key Takeaways
 
